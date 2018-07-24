@@ -32,17 +32,9 @@ module.exports = {
       type: 'confirm',
       message: 'Use vue-router?'
     },
-    resource: {
-      type: 'confirm',
-      message: 'Use vue-resource?'
-    },
     axios: {
       type: 'confirm',
       message: 'Use axios?'
-    },
-    iview: {
-      type: 'confirm',
-      message: 'Use iview?'
     },
     element: {
       type: 'confirm',
