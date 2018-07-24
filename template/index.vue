@@ -21,6 +21,7 @@ export default {
   components: {
     Hello,
   }
+  {{/router}}
 };
 </script>
 
