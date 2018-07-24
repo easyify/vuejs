@@ -36,16 +36,19 @@ module.exports = {
       type: 'confirm',
       message: 'Use axios?'
     },
+    vuex: {
+      type: 'confirm',
+      message: 'Use vuex?'
+    },
     element: {
       type: 'confirm',
       message: 'Use element?'
-    },
-    sass: {
-      type: 'confirm',
-      message: 'Use sass?'
     }
   },
-  filters: {},
+  filters: {
+    'src/router/**/*': 'router',
+    'src/store/**/*': 'vuex',
+  },
   completeMessage:
     'To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}'
 };

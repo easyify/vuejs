@@ -10,15 +10,15 @@
 
 <script type="text/ecmascript-6" charset="utf-8">
 {{#unless router}}
-import Hello from './Hello'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import Hello from './Hello';
 
 {{/unless}}
 export default {
-  name: 'app'{{#router}}{{#if_eq lintConfig "airbnb"}},{{/if_eq}}{{else}},
+  name: 'app'{{#router}},
   components: {
-    Hello{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
-  }{{#if_eq lintConfig "airbnb"}},{{/if_eq}}{{/router}}
-}{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+    Hello,
+  }
+};
 </script>
 
 <style lang="scss" rel="stylesheet/sass" scoped="scoped">
