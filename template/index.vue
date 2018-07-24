@@ -9,6 +9,9 @@
 </template>
 
 <script type="text/ecmascript-6" charset="utf-8">
+{{#unless vuex}}
+import {mapActions} from 'vuex';
+{{/unless}}
 {{#unless router}}
 import Hello from './Hello';
 
