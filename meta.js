@@ -46,8 +46,8 @@ module.exports = {
     }
   },
   filters: {
-    'src/router/**/*': 'router',
-    'src/store/**/*': 'vuex',
+    'router/**/*': 'router',
+    'store/**/*': 'vuex',
   },
   completeMessage:
     'To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}'
