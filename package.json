@@ -1,5 +1,5 @@
 {
-  "name": "easyify-cli-template-vue",
+  "name": "easyify-cli-template-vue-multi",
   "version": "1.0.0",
   "license": "MIT",
   "description": "A full-featured vue setup with hot-reload, lint-on-save, unit testing & css extraction.",
