@@ -17,11 +17,11 @@ import Hello from './Hello';
 
 {{/unless}}
 export default {
-  name: 'app'{{#router}},
+  name: 'app'{{#unless router}},
   components: {
     Hello,
   }
-  {{/router}}
+  {{/unless}}
 };
 </script>
 

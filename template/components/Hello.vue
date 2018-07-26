@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
    <div class="wrapper">
-        <img class="logo" src="./assets/images/logo.png" width="100%" alt="">
+        <img class="logo" src="../static/images/logo.png" width="100%" alt="">
         <div class="demo">
           <p>A compilation tools for FE, built with webpack4.x,</p>
           <p> compile faster and smart, make work easier.</p>
