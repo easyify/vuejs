@@ -15,8 +15,15 @@ module.exports = {
     },
     vendor:[
         'vue/dist/vue.esm.js', 
+        {{#router}}
         'vue-router', 
+        {{/router}}
+        {{#axios}}
         'axios', 
+        {{/axios}}
+        {{#vuex}}
         'vuex'
-    ]
+        {{/vuex}}
+    ],
+    vue: true
 }
