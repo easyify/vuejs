@@ -1,18 +1,18 @@
 <template>
     <div class="home_wrapper">
         home
-        <logo></logo>
+        <hello></hello>
     </div>
 </template>
 
 <script type="text/ecmascript-6" charset="utf-8">
-import logo from "../../components/logo.vue";
+import hello from "../../components/Hello.vue";
 
 export default {
   name: "record-add",
 
   components: {
-    logo: logo
+    hello: hello
   }
 };
 </script>
