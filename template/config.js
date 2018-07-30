@@ -2,15 +2,15 @@ module.exports = {
     env: {
         prod: {
             NODE_ENV: '"production"',
-            API: ''
+            API: '""'
         },
         dev: {
             NODE_ENV: '"development"',
-            API: ''
+            API: '""'
         },
         alpha: {
             NODE_ENV: '"production"',
-            API: ''
+            API: '""'
         }
     },
     vendor:[
@@ -25,5 +25,6 @@ module.exports = {
         'vuex'
         {{/vuex}}
     ],
-    vue: true
+    vue: true,
+    multi: true
 }

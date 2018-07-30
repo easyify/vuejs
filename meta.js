@@ -23,7 +23,10 @@ module.exports = {
       type: 'string',
       message: 'Author'
     },
-
+    multi: {
+      type: 'confirm',
+      message: 'Is a multi-page application?'
+    },
     mobile: {
       type: 'confirm',
       message: 'Use mobile adaptive?'
@@ -48,6 +51,7 @@ module.exports = {
   filters: {
     'router/**/*': 'router',
     'store/**/*': 'vuex',
+    'pages/**/*': 'multi',
   },
   completeMessage:
     'To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}'
