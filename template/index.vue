@@ -13,7 +13,7 @@
 import {mapActions} from 'vuex';
 {{/unless}}
 {{#unless router}}
-import Hello from './Hello';
+import Hello from './components/Hello';
 
 {{/unless}}
 export default {
