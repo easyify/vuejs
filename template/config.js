@@ -26,5 +26,9 @@ module.exports = {
         {{/vuex}}
     ],
     vue: true,
+    {{#multi}}
     multi: true
+    {{else}}
+    multi: false
+    {{/multi}}
 }
